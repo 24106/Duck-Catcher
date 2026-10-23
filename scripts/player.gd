@@ -7,11 +7,11 @@ signal duck_caught
 @export var speed: float = 700.0
 
 # keep the player away from the screen edges
-@export var edge_padding: float = 107.0
+@export var edge_padding: float = 54.0
 
 func _process(delta: float) -> void:
 	# read only the left and right movement controls
-	var direction: float = Input.get_axis("move_left", "move_right")
+	var direction: float = Input.get_axis("ui_left", "ui_right")
 	
 	# move the player horizontally
 	position.x += direction * speed * delta
