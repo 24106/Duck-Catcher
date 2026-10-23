@@ -1,0 +1,9 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1792728667
+default_theme.tres::Theme::1117335047065941206::1714689296::0::1::::<><><>0<>0<><>::
+duck.gd::GDScript::4465726335616079522::1714690760::0::1::::<>Area2D<><>0<>0<><>::
+duck.tscn::PackedScene::623361546449758431::1725826456::0::1::::<><><>0<>0<><>::res://duck.gd<>uid://5ylnmwdpbpmw::::res://duck_sprite.png
+duck_sprite.png::CompressedTexture2D::2155902141901908162::1714689936::1792728668::1::::<><><>0<>0<>91c344a390359edee4b4e842b9fe42dd<>res://.godot/imported/duck_sprite.png-6ce540fd4b04c1eeabd78fc4c112ac81.ctex::
+game.gd::GDScript::3725105816655771814::1714690650::0::1::::<>Node2D<><>0<>0<><>::
+icon.svg::CompressedTexture2D::7561684538499745643::1714688360::1792728668::1::::<><><>0<>0<>5c5234b66cd1c2f72108a8ea40801bad<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+task_01.tscn::PackedScene::3285205586229612112::1725826456::0::1::::<><><>0<>0<><>::res://game.gd<>uid://p6ily2d3rb8i::::res://default_theme.tres
