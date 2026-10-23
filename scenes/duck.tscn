@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://i47w5xajhud8"]
+
+[ext_resource type="Script" uid="uid://b4vh4irduq8q5" path="res://scripts/duck.gd" id="1_tils5"]
+[ext_resource type="Texture2D" uid="uid://5ylnmwdpbpmw" path="res://assets/duck_sprite.png" id="2_tils5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r5i0y"]
+radius = 28.284271
+
+[node name="Duck" type="Area2D" unique_id=1754188628]
+script = ExtResource("1_tils5")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1364805006]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_tils5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1043273076]
+position = Vector2(-1, 0)
+shape = SubResource("CircleShape2D_r5i0y")

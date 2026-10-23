@@ -1,0 +1,9 @@
+res://duck.tscn
+res://duck.gd
+res://game.gd
+res://scenes/duck.tscn
+res://scenes/task_01.tscn
+res://scripts/player.gd
+res://scenes/player.tscn
+res://scripts/duck.gd
+res://scripts/game.gd
